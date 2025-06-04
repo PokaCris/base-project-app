@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 
 const UseEffect = () => {
     const [counter, setCounter] = useState(0)
+
     useEffect(()=>{
         document.title=`clicked ${counter} times`
-    }, [counter]
-)
+    }, [counter]);
 
     return(
         <div>
