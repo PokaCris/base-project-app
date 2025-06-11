@@ -2,7 +2,8 @@ import { connect } from 'react-redux';
 
 const mapStateToProps = state => {
     return {
-        counter: state.counter
+        counter: state.counter,
+        counter: state.name
     }
 }
 
