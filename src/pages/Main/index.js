@@ -2,11 +2,10 @@ import UseEffect from "../../containers/useEffect";
 
 const Main = () => {
     return(
-        <div>MainPage
-            <UseEffect />
+        <div>
+            Main Page
+            <UseEffect/>
         </div>
-        
     )
 }
-
 export default Main;

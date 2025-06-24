@@ -1,12 +1,11 @@
-
 const initialState = {
     user: {
-        name:'',
-        lastName:'',
-        age:'',
-    }
+        name:'test',
+        lastName: 'test test',
+        age: 79
+    },
 }
-
+    
 const userReducer = (state = initialState, action) => {
     return state;
 }

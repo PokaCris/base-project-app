@@ -5,6 +5,7 @@ const initialState = {
 }
 
 const rootReducer = (state = initialState, action) => state;
-const store = redux.legacy_createStore(rootReducer);
+    
+const store = redux.createStore(rootReducer);
 
 console.log(store.getState())
